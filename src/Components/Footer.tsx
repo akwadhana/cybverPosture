@@ -162,7 +162,7 @@ const Footer: React.FC = () => {
           </div>
 
           <div
-            className="flex mt-10 flex-col lg:flex-row w-full h-[153px] "
+            className="flex mt-10 flex-col lg:flex-row lg:w-[1512px] lg:h-[153px]  "
             style={{
               backgroundSize: "cover",
             }}
@@ -170,12 +170,12 @@ const Footer: React.FC = () => {
             <img
               src={bigcyber}
               alt="Cyber Posture"
-              className="lg:w-[1512px] lg:h-[153px] object-cover"
+              className=" object-cover lg:w-[1512px] lg:h-[153px]"
             />
             <img
               src={Posture}
               alt="Cyber Posture"
-              className="lg:w-[1512px] lg:h-[153px] object-cover"
+              className="object-cover lg:w-[1512px] lg:h-[153px]"
             />
           </div>
         </div>

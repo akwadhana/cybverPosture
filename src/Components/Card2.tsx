@@ -34,7 +34,7 @@ const Card2 = ({
         </div>
       </div>
 
-      <p className="text-[#A7A7AF] w-[400] lg:mx-5 text-[12.31px]">
+      <p className="text-[#A7A7AF]  lg:mx-5 text-[12.31px]">
         {description}
       </p>
     </div>
