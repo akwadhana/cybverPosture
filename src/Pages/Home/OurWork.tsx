@@ -51,7 +51,7 @@ const OurWork: React.FC = () => {
           >
             <div className="w-[178px] h-48 mx-auto mt-10 lg:mt-15 border rounded-xl border-[#292B3D] bg-gradient-to-r from-[#09C6DE1A] to-[#4603891A] flex items-center justify-center overflow-hidden">
               <img
-                className="w-full h-full object-cover"
+                className="w-full h-full object-cover transform transition-transform duration-300 ease-in-out hover:scale-110 active:rotate-90"
                 src={card.imageSrc}
                 alt={card.title}
               />

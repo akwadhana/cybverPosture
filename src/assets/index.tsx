@@ -12,7 +12,7 @@ import excellence from "./svg/1.svg";
 import Light2 from "./images/Gradient (2).png";
 import pic from "./svg/Frame.svg";
 import quotation from './svg/Ellipse 7.svg'
-import cyberposture from "./images/Layer_1 (1).png"
+import cyberPosture from "./images/Layer_1 (1).png"
 import space from "./svg/Icon.svg"
 import insta from "./svg/Logo Instagram.svg"
 import linkdine from "./svg/Icon (1).svg"
@@ -20,6 +20,8 @@ import youtube from "./svg/Logo YouTube.svg"
 import Posture from "./svg/Group.svg";
 import bigcyber from "./svg/Group (1).svg" 
 import middle from "./images/Rectangle 2.png"
+import CyberPost from "./svg/Cyberposture in footer.svg"
 
 
-export { cyberposture,youtube, space,insta, linkdine, bigcyber, Logo, Posture, Header, Light, Light2, Susu, Layer,Cyber, Lante, tunder, middle, excellence, hand, expert,pic,quotation}
+
+export { cyberPosture, CyberPost, youtube, space,insta, linkdine, bigcyber, Logo, Posture, Header, Light, Light2, Susu, Layer,Cyber, Lante, tunder, middle, excellence, hand, expert,pic,quotation}

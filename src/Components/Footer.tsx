@@ -5,9 +5,8 @@ import {
   insta,
   linkdine,
   space,
-  cyberposture,
-  bigcyber,
-  Posture,
+  cyberPosture,
+  CyberPost,
   
 } from "../assets";
 import { GradientButton } from "./Button";
@@ -50,25 +49,27 @@ const Footer: React.FC = () => {
 
   return (
     <>
-      <div
-        className=" w-full h-full mt-20  items-center justify-center text-white"
-        style={{
-          backgroundImage: `url(${Light})`,
-          backgroundSize: "contain",
-          backgroundRepeat: "no-repeat",
-          backgroundPosition: "center",
-        }}
-      >
-        <div className="">
-          <h1 className=" text-[#F6F6F9] text-[40px] lg:text-[53.36px] text-center m">
-            Get started. It's easy
-          </h1>
-          <p className="text-[#D4D4E1] text-center mt-3 px-10">
-            Everything you need to remain cybersecurity compliant is just a call
-            away
-          </p>
-        </div>
-      </div>
+     <div
+  className="left-0 w-full flex flex-col items-center justify-center text-white"
+  style={{
+    backgroundImage: `url(${Light})`,
+    backgroundSize: "50%", // Increase size of the background image
+    height: "150px",
+    backgroundRepeat: "no-repeat",
+    backgroundPosition: "center",
+  }}
+>
+  <div>
+    <h1 className="text-[#F6F6F9] text-[40px] lg:text-[53.36px] text-center m">
+      Get started. It's easy
+    </h1>
+    <p className="text-[#D4D4E1] text-center mt-3 px-10">
+      Everything you need to remain cybersecurity compliant is just a call
+      away
+    </p>
+  </div>
+</div>
+
 
       <div
         className="bg-cover bg-center"
@@ -115,7 +116,7 @@ const Footer: React.FC = () => {
           <div className=" justify-end items-end flex mt-5 ">
             <div className="">
               <img
-                src={cyberposture}
+                src={cyberPosture}
                 alt="Cyber Posture"
                 className="w-full max-w-[200px]"
               />
@@ -162,21 +163,17 @@ const Footer: React.FC = () => {
           </div>
 
           <div
-            className="flex mt-10 flex-col lg:flex-row lg:w-[1512px] lg:h-[153px]  "
+            className="mt-10"
             style={{
               backgroundSize: "cover",
             }}
           >
             <img
-              src={bigcyber}
+              src={CyberPost}
               alt="Cyber Posture"
-              className=" object-cover lg:w-[1512px] lg:h-[153px]"
+              className="  w-full "
             />
-            <img
-              src={Posture}
-              alt="Cyber Posture"
-              className="object-cover lg:w-[1512px] lg:h-[153px]"
-            />
+            
           </div>
         </div>
       </div>

@@ -20,9 +20,12 @@ export const GradientButton: React.FC<ButtonProps> = ({ text, onClick, className
 export const NonGradientButton: React.FC<ButtonProps> = ({ text, onClick, className }) => {
   return (
     <button
-      className={`border-1 text-white py-2 px-6  ${className}`}
+      className={`py-2 rounded-2xl px-6 ${className}`}
       style={{
-        borderImage: "linear-gradient(to right, #09C6DE, #460389) rounded-full  ",
+        border: '2px solid ', // Defines border, required for borderImage
+        borderRadius: '9999px', // Fully rounded
+        padding: '12px 24px',
+        borderImage: 'linear-gradient(to right, #09C6DE, #460389) 1', // Gradient border
       }}
       onClick={onClick}
     >
@@ -30,3 +33,5 @@ export const NonGradientButton: React.FC<ButtonProps> = ({ text, onClick, classN
     </button>
   );
 };
+
+
