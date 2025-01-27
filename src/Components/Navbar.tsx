@@ -97,7 +97,7 @@ const Navbar: React.FC = () => {
         </div>
       </div>
       <div className={`${isMobileMenuOpen ? "block" : "hidden"} lg:hidden`}>
-        <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
+        <div className="px-2 pt-2 pb-3  space-y-1 sm:px-3">
           <Link
             to="/"
             className={`px-3 text-white py-2 text-sm font-medium ${

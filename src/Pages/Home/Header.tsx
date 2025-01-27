@@ -36,7 +36,10 @@ const Hero: React.FC = () => {
 
         <div className="flex mt-5 space-x-4">
           <GradientButton text={"Schedule a Call"} />
-          <NonGradientButton text={"Get a Quote"} />
+  
+
+<NonGradientButton text={"Schedule a Call"} className="bg-black" />
+
         </div>
       </div>
     </div>

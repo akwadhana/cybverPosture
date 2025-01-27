@@ -41,10 +41,12 @@ const Footer: React.FC = () => {
   const list3 = words.slice(14, 22);
 
   const icons = [
-    { src: youtube, link: "https://youtube.com" },
-    { src: insta, link: "https://instagram.com" },
-    { src: linkdine, link: "https://linkedin.com" },
     { src: space, link: "https://example.com" },
+    { src: insta, link: "https://instagram.com" },
+    { src: youtube, link: "https://youtube.com" },
+    
+    { src: linkdine, link: "https://linkedin.com" },
+    
   ];
 
   return (
@@ -53,20 +55,22 @@ const Footer: React.FC = () => {
   className="left-0 w-full flex flex-col items-center justify-center text-white"
   style={{
     backgroundImage: `url(${Light})`,
-    backgroundSize: "50%", // Increase size of the background image
-    height: "150px",
+    backgroundSize: "50%", 
     backgroundRepeat: "no-repeat",
     backgroundPosition: "center",
   }}
 >
   <div>
-    <h1 className="text-[#F6F6F9] text-[40px] lg:text-[53.36px] text-center m">
+    <h1 className="text-[#F6F6F9] text-[40px] mt-10 lg:text-[53.36px] text-center m">
       Get started. It's easy
     </h1>
-    <p className="text-[#D4D4E1] text-center mt-3 px-10">
+<div className="px-8"> 
+<p className="text-[#D4D4E1] text-center mt-3  ">
       Everything you need to remain cybersecurity compliant is just a call
       away
     </p>
+</div>
+   
   </div>
 </div>
 
@@ -78,7 +82,7 @@ const Footer: React.FC = () => {
           backgroundPosition: "center ",
         }}
       >
-        <div className="items-center justify-center flex">
+        <div className="items-center mt-10 justify-center flex">
           <GradientButton text="Schedule a Call" className="mt-5" />
         </div>
 
@@ -109,7 +113,7 @@ const Footer: React.FC = () => {
               <p>Explore</p>
             </div>
             <div className="">
-              <p className="ml-4">Resources</p>
+              <p className="">Resources</p>
             </div>
           </div>
 

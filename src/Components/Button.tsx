@@ -22,10 +22,10 @@ export const NonGradientButton: React.FC<ButtonProps> = ({ text, onClick, classN
     <button
       className={`py-2 rounded-2xl px-6 ${className}`}
       style={{
-        border: '2px solid ', // Defines border, required for borderImage
-        borderRadius: '9999px', // Fully rounded
+        border: '2px solid ', 
+        borderRadius: '9999px', 
         padding: '12px 24px',
-        borderImage: 'linear-gradient(to right, #09C6DE, #460389) 1', // Gradient border
+        borderImage: 'linear-gradient(to right, #09C6DE, #460389) 1', 
       }}
       onClick={onClick}
     >
