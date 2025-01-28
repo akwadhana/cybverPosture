@@ -49,9 +49,9 @@ const OurWork: React.FC = () => {
             key={index}
             className="max-w-sm rounded-xl lg:mt-5 overflow-hidden h-[415.44px] shadow-lg border border-[#292B3D]  bg-gradient-to-r from-[#7C82B11F] to-[#11121B00]"
           >
-            <div className="w-[178px] h-48 mx-auto mt-10 lg:mt-15 border rounded-xl border-[#292B3D] bg-gradient-to-r from-[#09C6DE1A] to-[#4603891A] flex items-center justify-center overflow-hidden">
+            <div className="w-[178px] transform transition-transform duration-300 ease-in-out hover:scale-110 h-48 mx-auto mt-10 lg:mt-15 border rounded-xl border-[#292B3D] bg-gradient-to-r from-[#09C6DE1A] to-[#4603891A] flex items-center justify-center overflow-hidden">
               <img
-                className="w-full h-full object-cover transform transition-transform duration-300 ease-in-out hover:scale-110 active:rotate-90"
+                className="w-full h-full object-cover "
                 src={card.imageSrc}
                 alt={card.title}
               />

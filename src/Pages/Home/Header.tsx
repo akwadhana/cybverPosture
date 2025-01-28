@@ -38,7 +38,7 @@ const Hero: React.FC = () => {
           <GradientButton text={"Schedule a Call"} />
   
 
-<NonGradientButton text={"Schedule a Call"} className="bg-black" />
+<NonGradientButton text={"Get a Quote"} className="bg-black" />
 
         </div>
       </div>
