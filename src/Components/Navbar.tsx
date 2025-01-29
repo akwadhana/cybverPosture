@@ -1,17 +1,17 @@
 import React, { useState } from "react";
-import { Link, useLocation } from "react-router-dom";
+import { Link,  } from "react-router-dom";
 import { GradientButton } from "./Button";
 import { Logo } from "../assets";
 
 const MobileNav: React.FC = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
-  const location = useLocation();
+  // const location = useLocation();
 
   const toggleMobileMenu = () => {
     setIsMobileMenuOpen(!isMobileMenuOpen);
   };
 
-  const isActive = (path: string) => location.pathname === path;
+ 
 
   return (
     <nav className="bg-[#11121B] relative">
