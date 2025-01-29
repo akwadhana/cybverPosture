@@ -175,7 +175,7 @@ const Footer: React.FC = () => {
             <img
               src={CyberPost}
               alt="Cyber Posture"
-              className="  w-full "
+              className=" w-full "
             />
             
           </div>
