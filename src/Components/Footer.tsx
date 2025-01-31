@@ -65,26 +65,26 @@ const Footer: React.FC = () => {
       Get started. It's easy
     </h1>
 <div className="px-8"> 
-<p className="text-[#D4D4E1] text-center mt-3  ">
+<p className="text-[#D4D4E1] text-center mt3 lg: ">
       Everything you need to remain cybersecurity compliant is just a call
       away
     </p>
 </div>
-   
+<div className="items-center mt-2 justify-center flex">
+          <GradientButton text="Schedule a Call" className="mb-5" />
+        </div>
   </div>
 </div>
 
 
       <div
-        className="bg-cover bg-center"
+        className="bg-cover bg-center "
         style={{
           backgroundImage: `url(${Header})`,
           backgroundPosition: "center ",
         }}
       >
-        <div className="items-center mt-10 justify-center flex">
-          <GradientButton text="Schedule a Call" className="mt-5" />
-        </div>
+        
 
         <div className="flex lg:flex-row flex-col mt-20 items-center justify-center   lg:space-x-60">
           <div className="flex  space-x-3  ">
@@ -129,7 +129,7 @@ const Footer: React.FC = () => {
         </div>
         <div>
           <div className="flex  justify-center lg:space-x-35 mt-5 leading-9">
-            {/* List 1 */}
+       
             <div>
               <h2 className="text-lg font-bold mb-2"></h2>
               <div className="list-disc ml-5">
@@ -141,7 +141,7 @@ const Footer: React.FC = () => {
               </div>
             </div>
 
-            {/* List 2 */}
+    
             <div>
               <h2 className="text-lg font-bold mb-2"></h2>
               <div className="list-disc ml-5">
@@ -153,7 +153,7 @@ const Footer: React.FC = () => {
               </div>
             </div>
 
-            {/* List 3 */}
+          
             <div>
               <h2 className="text-lg font-bold mb-2"></h2>
               <ul className="list-disc ml-5">
