@@ -9,11 +9,11 @@ interface ButtonProps {
 export const GradientButton: React.FC<ButtonProps> = ({ text, onClick, className }) => {
   return (
     <button
-      className={`bg-gradient-to-r from-[#09C6DE] to-[#460389] text-white py-2 px-6 rounded-full ${className}`}
-      onClick={onClick}
-    >
-      {text}
-    </button>
+    className={`bg-gradient-to-r from-[#09C6DE] to-[#460389] text-white py-2 px-6 rounded-full hover:from-[#460389] hover:to-[#09C6DE] hover:scale-105 transition-all duration-300 ${className}`}
+    onClick={onClick}
+  >
+    {text}
+  </button>
   );
 };
 
