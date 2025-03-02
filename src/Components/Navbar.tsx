@@ -35,7 +35,7 @@ const MobileNav: React.FC = () => {
 
           {/* Desktop Button */}
           <div className="hidden md:block text-white">
-            <Link to="/schedule">
+            <Link to="/">
               <GradientButton text="Schedule a Call" />
             </Link>
           </div>
@@ -131,7 +131,7 @@ const MobileNav: React.FC = () => {
           <div className="block px-3 text-white py-2 text-sm font-medium">About</div>
           <div className="block px-3 text-white py-2 text-sm font-medium">Contact Us</div>
           <div className="mt-4">
-            <Link to="/schedule">
+            <Link to="/">
               <GradientButton text="Schedule a Call" />
             </Link>
           </div>

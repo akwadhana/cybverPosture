@@ -34,7 +34,7 @@ const OurWork: React.FC = () => {
         <h1 className="text-[#7DBDF8] text-[16px] text-center">HOW WE WORK</h1>
       </div>
 
-      <div className="text-5xl text-center mt-5">
+      <div className="lg:text-5xl text-2xl text-center mt-5">
         <h1 className="text-white lg:px-72">
           <span className="bg-gradient-to-r from-[#09C6DE] to-[#460389] text-transparent bg-clip-text">
             We ensure your organization is protected
